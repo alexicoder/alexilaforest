@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Code+Pro:wght@900&display=swap');
+
+:root {
+    --primary: #66E3C5;
+    --primary-grey: #647A6A;
+    --secondary: #1E0626;
+    --white: white;
+}
