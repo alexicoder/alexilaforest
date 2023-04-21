@@ -6,3 +6,10 @@
     --secondary: #1E0626;
     --white: white;
 }
+
+body {
+    background-color: var(--secondary);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    padding: 25px 15px 0 15px;
+}
