@@ -11,6 +11,7 @@ body {
     background-color: var(--secondary);
     color: var(--white);
     font-family: 'Inter', sans-serif;
+    font-size: 18px;
     padding: 25px 15px 0 15px;
 }
 
@@ -21,6 +22,22 @@ h4,
 h5,
 h6 {
     font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.btn-lg {
+    padding: 15px 25px;
 }
 
 .logo {
@@ -45,4 +62,26 @@ h6 {
     bottom: -40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.hero {
+    margin-top: 9px;
+    border: solid 3px var(--primary);
+    padding: 40px 25px 100px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
